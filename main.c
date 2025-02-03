@@ -1,6 +1,10 @@
 #include "myLibs/myLib.h"
 #include "myLibs/compileMyLibs.c"
-
+/**
+ * cli c program that Transfer the sixteenth system(hexadecimal) from scratch 
+ * Transfer-the-sixteenth-system-from-scratch
+ * 
+ */
 void methodDec2Hex()
 {
     while (1)
