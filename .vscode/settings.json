@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "mylib.h": "c",
+        "string": "c",
+        "algorithm": "c",
+        "random": "c",
+        "functional": "c",
+        "stdbool.h": "c"
+    }
+}
