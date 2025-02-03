@@ -1,4 +1,5 @@
 /git
+/.vscode
 app.exe
 test.c
 test.exe
