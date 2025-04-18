@@ -1,5 +1,6 @@
 #include "./myLib.h"
 
+
 void freeBuffAfterFgets()
 {
   int c;
@@ -35,7 +36,3 @@ int inputStr(const char *msg, char *dest, int buff)
   trimStr(dest);//.strip
   return (strlen(dest) == 0) ? 0 : 1;
 }
-
-
-
-

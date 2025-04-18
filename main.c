@@ -1,9 +1,9 @@
-#include "myLibs/myLib.h"
+#include "./myLib.h"
 #include "myLibs/compileMyLibs.c"
 /**
- * cli c program that Transfer the sixteenth system(hexadecimal) from scratch 
+ * cli c program that Transfer the sixteenth system(hexadecimal) from scratch
  * Transfer-the-sixteenth-system-from-scratch
- * 
+ *
  */
 void methodDec2Hex()
 {
@@ -122,8 +122,9 @@ int main()
     */
 
     // usage tip TYPE 'stop' to exit program ot the method
+    #ifdef WINDOWS
     enableANSI_ColorsForWin(); // this fun
-
+    #endif
     method();
     endProgram(1); // this functhion print msg and take a input to exit the progrm("enter");
     return 0;

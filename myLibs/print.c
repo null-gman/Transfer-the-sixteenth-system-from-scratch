@@ -1,17 +1,22 @@
 #include "./myLib.h"
 
 // for cmd to enable ANSI colot
+//
+
+
+#ifdef WINDOWS
 void enableANSI_ColorsForWin()
 {
     // for windows only
     // don't ask me how it works , ask chat GPT !
-    
+
     HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
     DWORD dwMode = 0;
     GetConsoleMode(hOut, &dwMode);
     dwMode |= ENABLE_VIRTUAL_TERMINAL_PROCESSING;
     SetConsoleMode(hOut, dwMode);
 }
+#endif
 
 void printGreen(const char *msg)
 {
