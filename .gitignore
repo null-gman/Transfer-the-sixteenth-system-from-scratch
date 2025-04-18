@@ -1,6 +1,5 @@
-/git
 /.vscode
-app.exe
-test.c
-test.exe
-test.py
+/.clangd
+
+/bin
+/objs
